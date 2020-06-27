@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="calculator">
+    <div class="main container">
+        <div class="row">
+        <div class="col-md-12">
+            <input id="result" class="result" type="text" name="display">
+        </div>
+        
+        <div class="btns col-md-2">
+             <input type="button" class="btn1"  onclick="calpi()" value="&#960">
+             <input type="button" class="btn1" onclick="calfact()" value=" x!">
+             <input type="button" class="btn" onclick="getNumber('(')"value="(">
+             <input type="button" class="btn" onclick="getNumber(')')" value=")">
+             <input type="button" class="btn" onclick="calpercent()"value="%">
+             <input type="button" class="clearBtn " onclick="clearResult()" value="C">
+             <input type="button" class="clearBtn " onclick="backspace()" value="AC">
+        </div>
+        <div class="btns  col-md-2">
+             <input type="button" class="btn1" onclick="calsin()" value="sin">
+             <input type="button" class="btn1" onclick="calln()" value="ln">
+             <input type="button" class="btn" onclick="getNumber('7')" value="7">
+             <input type="button" class="btn" onclick="getNumber('8')" value="8">
+             <input type="button" class="btn" onclick="getNumber('9')" value="9">
+             <input type="button" class="btn2" onclick="getNumber('/')"value="&#247">
+            
+        </div>
+        <div class="btns  col-md-2">
+             <input type="button" class="btn1" onclick="calcos()" value="cos">
+             <input type="button" class="btn1" onclick="callog()" value="log">
+             <input type="button" class="btn" onclick="getNumber('4')" value="4">
+             <input type="button" class="btn" onclick="getNumber('5')" value="5">
+             <input type="button" class="btn" onclick="getNumber('6')" value="6">
+             <input type="button" class="btn2" onclick="getNumber('*')" value="x">
+            
+            
+        </div>
+        <div class="btns  col-md-2">
+             <input type="button" class="btn1" onclick="caltan()" value="tan">
+             <input type="button" class="btn1" onclick="calsqrt" value="&#8730">
+             <input type="button" class="btn" onclick="getNumber('1')" value="1">
+             <input type="button" class="btn" onclick="getNumber('2')" value="2">
+             <input type="button" class="btn" onclick="getNumber('3')" value="3">
+             <input type="button" class="btn2" onclick="getNumber('-')" value="-">
+            
+        </div>
+        <div class="btns  col-md-2">
+            <input type="button"
+              class="btn1" onclick="calexp()" value="e">
+             <input type="button" class="btn1" onclick="calsquare()" value="X^2">
+             <input type="button" class="btn" onclick="getNumber('0')" value="0">
+             <input type="button" class="btn" onclick="getNumber('.')" value="."">
+            
+
+             <input type="button" class="btn" onclick="getResult()" value="=">
+             <input type="button" class="btn2" onclick="getNumber('+')"value="+"">
+
+        </div>
+    </div>
+    
+    
+</div> 
+</form>  
+    
+    </body>
+    <script src="app.js"></script>
+    </html>

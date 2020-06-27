@@ -1,0 +1,126 @@
+.main {
+    border: 2px solid grey;
+    width: 720px;
+    padding-right: 2px;
+    align-items: center;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 5px;
+}
+
+.result {
+    width: 700px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    
+    margin: 7px;
+    font-size: xx-large;
+    text-align: right;
+}
+
+
+
+.btn {
+    height: 70px;
+    background-color: bisque;
+    width: 100px;
+    margin: 2px;
+    align-items: center;
+    
+}
+.btn1 {
+    height: 70px;
+    background-color: mediumspringgreen;
+    width: 120px;
+    margin: 2px;
+    align-items: center;
+    margin-right: 4px;
+    
+}
+.btn2 {
+    height: 70px;
+    background-color: lightcyan;
+    width: 120px;
+    margin: 2px;
+    align-items: center;
+    
+}
+
+
+.btns{
+    padding-left: 7px;
+}
+.clearBtn{
+    height: 70px;
+    background-color: lightcyan;
+    width: 55px;
+    margin: 2px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .main {
+        border: 2px solid grey;
+        width: 420px;
+        padding-right: 2px;
+        align-items: center;
+        margin: 0 auto;
+        height: 500px;
+        padding-top: 5px;
+    }
+    
+    .result {
+        width: 400px;
+        height: 90px;
+        background-color: white;
+        color: black;
+        align-items: center;
+        
+        margin: 7px;
+        font-size: xx-large;
+        text-align: right;
+    }
+    
+    
+    
+    .btn {
+        height: 70px;
+        background-color: bisque;
+        width: 65px;
+        margin: 2px;
+        align-items: center;
+        
+    }
+    .btn1 {
+        height: 70px;
+        background-color: mediumspringgreen;
+        width: 50px;
+        margin: 2px;
+        align-items: center;
+        margin-right: 4px;
+        
+    }
+    .btn2 {
+        height: 70px;
+        background-color: lightcyan;
+        width: 70px;
+        margin: 2px;
+        align-items: center;
+        
+    }
+    
+    
+    .btns{
+        padding-left: 7px;
+    }
+    .clearBtn{
+        height: 70px;
+        background-color: lightcyan;
+        width: 32px;
+        margin: 1px;
+        align-items: center;
+    }
+  }
